@@ -17,9 +17,9 @@ e.g.
 
 `Sperlugulong	spə(r)ˈluː.ɡjuː.lɔːŋɡ	noun`
 
-If multiple pronunciations are generated (e.g., pronunciations with both 'tapped' and 'non-tapped' intervocalic `<t>` for AusE) pronunciations are sepatated with #
+If multiple pronunciations are generated (e.g., pronunciations with both 'tapped' and 'non-tapped' intervocalic `<t>` for AusE) pronunciations are presented with a # separator
 
-The output can be further processed to generate and inject into OPTRA new XML structures
+The output can/should then be further processed to generate and inject into OPTRA in new XML structures
 
-Note for easily queasy: contains regex-based XML parsing, and however Python these scripts now are, they still reflect a Perl mindset / they're not truly Pythonic. They're rapid resurrections of some old perl 'one-off workings, not replicable processes' scripts.  
-Note for queasy in general: `originalPerl` contains the original perl scripts.
+_Note for easily queasy_: contains regex-based XML parsing, and however Python these scripts now are, they still reflect a Perl mindset / they're not truly Pythonic. They're rapid resurrections of some old perl 'one-off workings, not replicable processes' scripts.  
+_Note for queasy in general_: `originalPerl` contains the original perl scripts.
