@@ -1,0 +1,23 @@
+<entry xmlns="urn:OPTRA" xmlns:d="urn:OPTRA" xmlns:e="urn:IDMEE" xmlns:md="urn:DPS2-metadata" e:id="someDummyId1" e:dbid="someDummyId2" prlexid="someDummyId3" e:version="2.0">
+	<orthography_group e:id="someDummyId4">
+		<orthography e:id="someDummyId5">Sperlugulong</orthography>
+	</orthography_group>
+	<pronunciation_group model_and_variety="OPTRA_brit" e:id="someDummyId6" prlexid="someDummyId7">
+		<pronunciation e:id="someDummyId8">
+			<transcription e:id="someDummyId9">spə{r}ˈluː.ɡju.lɒŋ</transcription>
+			<audio e:id="sperlugulong#1_gb_1"/>
+		</pronunciation>
+		<pos_evidenced e:id="someDummyId10">
+			<noun e:id="someDummyId11"/>
+		</pos_evidenced>
+	</pronunciation_group>
+	<pronunciation_group model_and_variety="OPTRA_us" e:id="someDummyId12" prlexid="someDummyId13">
+		<pronunciation e:id="someDummyId14">
+			<transcription e:id="someDummyId15">spərˈlu.ɡjəˌlɑŋ</transcription>
+			<audio e:id="sperlugulong#1_us_1"/>
+		</pronunciation>
+		<pos_evidenced e:id="someDummyId16">
+			<noun e:id="someDummyId17"/>
+		</pos_evidenced>
+	</pronunciation_group>
+</entry>
