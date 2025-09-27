@@ -4,7 +4,7 @@ Each script reads in a copy of OPTRA (a large proprietary XML dataset describing
 
 In my time this was done to ensure some large-scale audio recording sessions for AusE and IndE were guided by and anchored in data - i.e. orthography is not a reliable guide to or suggestion of pronunciation, but a phonemic transcription is data representing pronunciation to some degree of accuracy, that the resulting audio file will either match tolerably or deviate from for either valid ('we don't actually say it like that, let's change the transcription') or invalid reasons ('oops, got that one wrong, let's redo it'). Between programatically generating AusE/IndE transcriptions according to expected changes (and represented in an phonetically appropriate phonemic system) and the process of recording an appropriate speaker working to that data, adjusting and correcting along the way, a decent dataset (new transcriptions, new audio files, new XML for OPTRA) is created.
 
-`/testData` contains a (mock, single entry) `optra.xml` containing a nonsense word and input word list (`list.txt`) matching that single entry.
+`/testData` contains a (mock, single entry) `optra_sample.xml` containing a nonsense word and input word list (`list.txt`) matching that single entry.
 `optra.xml` is ideally a full export of OPTRA from the database that holds it, in the form (as I remember) that database exports - one entry per line (minified not pretty printed), held in a batch structure, with full internal e:id on tags. The new python conversions are a touch more tolerant of unexpected input.
 `list.txt` should contain each desired 'word' (wordform, headword, compound, phrasem, whatever ...) on a separate line.
 
