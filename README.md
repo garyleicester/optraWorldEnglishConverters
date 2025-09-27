@@ -8,12 +8,14 @@ In my time this was done to ensure some large-scale audio recording sessions for
 `--optra {file}.xml` is ideally a full export of OPTRA from the database that holds it, in the form (as I remember) that database exports - one `<entry ... <\/entry>` per line (minified, not pretty printed), held in a batch structure, with full internal `e:id` attributes on tags. The new Python conversions are a touch more tolerant of unexpected input than the original scripts.
 `list.txt` should contain each desired 'word' (wordform, headword, compound, phrasem, whatever ...) on a separate line.
 
-`python3 optraAusEConverter.py --optra optra.xml --wordlist list.txt >australian_test_output.txt`
-`python3 optraIndEConverter.py --optra optra.xml --wordlist list.txt >indian_test_output.txt`
+```
+python3 optraAusEConverter.py --optra testData/optra_sample.xml --wordlist testData/list.txt >australian_test_output.txt
+python3 optraIndEConverter.py --optra testData/optra_sample --wordlist testData/list.txt >indian_test_output.txt
+```
 
 output is tab separated - `input[TAB]pronunciations[TAB]part(s) of speech`
 
-e.g.
+e.g. (IndE)
 
 `Sperlugulong	spə(r)ˈluː.ɡjuː.lɔːŋɡ	noun`
 
