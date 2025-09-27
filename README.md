@@ -10,6 +10,8 @@ In my time this was done to ensure some large-scale audio recording sessions for
 
 ```
 python3 optraAusEConverter.py --optra testData/optra_sample.xml --wordlist testData/list.txt >australian_test_output.txt
+```
+```
 python3 optraIndEConverter.py --optra testData/optra_sample --wordlist testData/list.txt >indian_test_output.txt
 ```
 
@@ -17,11 +19,13 @@ output is tab separated - `input[TAB]pronunciations[TAB]part(s) of speech`
 
 e.g. (IndE)
 
-`Sperlugulong	spə(r)ˈluː.ɡjuː.lɔːŋɡ	noun`
+```
+Sperlugulong	spə(r)ˈluː.ɡjuː.lɔːŋɡ	noun
+```
 
 If multiple pronunciations are generated (e.g., pronunciations with both 'tapped' and 'non-tapped' intervocalic `<t>` for AusE) pronunciations are presented with a # separator
 
 The output can/should then be further processed to generate and inject into OPTRA in new XML structures
 
-**Note for easily queasy**: contains regex-based XML parsing, and however Python these scripts now are, they still reflect a Perl mindset / they're not truly Pythonic. They're rapid resurrections of some old Perl 'one-off workings, not replicable processes' scripts.  
-**Note for queasy in general**: `originalPerl` contains the original Perl scripts.
+**Note to the easily queasy**: contains regex-based XML parsing, and however Python these scripts now are, they still reflect a Perl mindset / they're not truly Pythonic. They're rapid resurrections of some old Perl 'one-off workings, not replicable processes' scripts.  
+**Note to the queasy in general**: `originalPerl` contains the original Perl scripts.
