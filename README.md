@@ -29,5 +29,5 @@ If multiple pronunciations are generated (e.g., 'tapped' and 'non-tapped' interv
 
 The output can/should then be further processed to generate and inject into OPTRA in new XML structures
 
-**Note to the easily queasy**: contains regex-based XML parsing, and however Python these scripts now are, they still reflect a Perl mindset / they're not truly Pythonic. They're rapid resurrections of some old Perl 'one-off workings, not replicable processes' scripts.  
+**Note to the easily queasy**: contains regex-based XML parsing, and Python as these scripts now are, they still reflect a Perl mindset / they're not truly Pythonic. They're rapid resurrections of some old Perl 'one-off workings, not replicable processes' scripts, a quick step towards reusability.  
 **Note to the queasy in general**: `originalPerl` contains the original Perl scripts.
