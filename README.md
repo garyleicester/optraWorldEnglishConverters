@@ -25,7 +25,7 @@ e.g. (IndE)
 Sperlugulong	spə(r)ˈluː.ɡjuː.lɔːŋɡ	noun
 ```
 
-If multiple pronunciations are generated (e.g., pronunciations with both 'tapped' and 'non-tapped' intervocalic `<t>` for AusE) pronunciations are presented with a # separator
+If multiple pronunciations are generated (e.g., 'tapped' and 'non-tapped' intervocalic `<t>` for AusE) pronunciations are presented with a # separator
 
 The output can/should then be further processed to generate and inject into OPTRA in new XML structures
 
