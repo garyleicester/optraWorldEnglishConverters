@@ -14,7 +14,7 @@ In my time this was done to ensure some large-scale audio recording sessions for
 python3 optraAusEConverter.py --optra testData/optra_sample.xml --wordlist testData/list.txt >australian_test_output.txt
 ```
 ```
-python3 optraIndEConverter.py --optra testData/optra_sample --wordlist testData/list.txt >indian_test_output.txt
+python3 optraIndEConverter.py --optra testData/optra_sample.xml --wordlist testData/list.txt >indian_test_output.txt
 ```
 
 output is tab separated - `input[TAB]pronunciations[TAB]part(s) of speech`
